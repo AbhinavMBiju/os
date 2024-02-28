@@ -20,3 +20,9 @@ int main (int argc,char *args[])
 	closedir(dirp);
 }
 	
+output
+Enter the directory name: Desktop
+linkedlist.c
+.
+..
+pg1.c
