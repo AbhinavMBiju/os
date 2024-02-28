@@ -14,3 +14,11 @@ int main()
 	printf("Bye \n");
 	return 0;
 }
+
+
+output
+HP:Hello from parent 
+HC:Hello from child 
+Bye 
+CT:Child has terminated 
+Bye
