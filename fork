@@ -24,8 +24,6 @@ void main()
 
 
 output
-Enter the directory name: Desktop
-linkedlist.c
-.
-..
-pg1.c
+The parent process id is 4375 
+The child process id is 4376
+
