@@ -1,0 +1,9 @@
+#include <unistd.h>
+int main(void)
+{
+	char *binaryPath="/bin/ls";
+	char *arg1="-1";
+	char *arg2="Desktop";
+	execl(binaryPath,binaryPath,arg1,arg2,NULL);
+	return 0;
+}
