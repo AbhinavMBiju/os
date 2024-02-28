@@ -21,3 +21,11 @@ void main()
 		printf("The child process id is %d",pid2);
 	}
 }
+
+
+output
+Enter the directory name: Desktop
+linkedlist.c
+.
+..
+pg1.c
