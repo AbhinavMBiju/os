@@ -42,3 +42,21 @@
       printf("Average Turnaround Time:\t%lf\n", average_turnaround_time);
       return 0;
 }
+
+
+out
+Enter the Total Number of Processes:3
+
+Enter Details of 3 Processes
+
+Enter Arrival Time:1
+Enter Burst Time:3
+
+Enter Arrival Time:3
+Enter Burst Time:5
+
+Enter Arrival Time:4
+Enter Burst Time:9
+
+Average Waiting Time:	2.000000
+Average Turnaround Time:	7.666667
