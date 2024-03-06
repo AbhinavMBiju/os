@@ -39,3 +39,11 @@ int main()
 	findAvgTime(processes,n,burst_time);
 	return 0;
 }	
+
+
+out
+Process	BurstTime	WaitingTime	TurnAroundTime 
+1	0	0	0	2	5	0	5	3	8	513	
+Average Waiting Time=1.666667
+
+Average Turn Around Time=6.000000
