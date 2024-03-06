@@ -49,3 +49,22 @@ int main()
 	}
 	return 0;
 }
+
+
+out
+Enter Number of Processes: 3
+Enter Burst Time and Priority Value for Process 1: 5
+7
+Enter Burst Time and Priority Value for Process 2: 6
+4
+Enter Burst Time and Priority Value for Process 3: 9
+1
+Order of process Execution is
+P1 is executed from 0 to 5
+P2 is executed from 5 to 11
+P3 is executed from 11 to 20
+
+Process Id     Burst Time   Wait Time    TurnAround Time
+P1          5          0          5
+P2          6          5          11
+P3          9          11          20
