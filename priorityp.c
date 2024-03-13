@@ -75,4 +75,21 @@ int main()
 	printf("Average Turn around time is %f\n",avg_turn_around);
 	return 0;
 }		
-		
+
+
+out
+Enter Number of Processes: 3
+Enter Burst Time and Priority Value for Process 1: 3
+5
+Enter Burst Time and Priority Value for Process 2: 6
+3
+Enter Burst Time and Priority Value for Process 3: 9
+1
+Order of process Execution is
+
+Process id	Burst time	wait time
+P1		3		2
+P2		6		-3
+P3		9		-8
+Average waiting time is -3.000000
+Average Turn around time is 6.000000
