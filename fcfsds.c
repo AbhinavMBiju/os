@@ -24,3 +24,19 @@ void main()
 	printf("\nTotal seek time:%d",seektime);
 	printf("\nAverage seek time=%f",(float)seektime/n);
 } 
+
+output
+Enter the size of queue:8
+Enter the queue:176
+79
+34
+60
+92
+11
+41
+114
+Enter the initial head position:50
+
+Movement of cylinders
+50->176->79->34->60->92->11->41->114
+Total seek time:510
