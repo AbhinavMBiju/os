@@ -67,3 +67,22 @@ int main()
             return 0;
 }
 
+output
+Enter the max range of disk
+
+200
+Enter the initial head position
+50
+Enter the size of queue request
+8
+Enter the queue of disk positions to be read
+90
+120
+35
+122
+38
+128
+65
+68
+50->65->68->90->120->122->128->200->38->35->Total seek time is 350
+Average seek time is 43.750000
