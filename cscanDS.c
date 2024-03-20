@@ -71,3 +71,19 @@ void main()
 	printf("Average seek time is %f\n",seek/(float)n);
 }
 
+output
+Enter the max range of disk:200
+Enter the initial head position:50
+Enter the size of queue request:8
+Enter the queue of disk positions to be read:
+176
+79
+34
+60
+92
+11
+41
+114
+50->60->79->92->114->176->200->0->11->34->41
+Total seek time is 391
+Average seek time is 48.875000
