@@ -58,3 +58,18 @@ int main()
 		}
 	}
 }
+
+output
+1. Press 1 for Producer
+2. Press 2 for Consumer
+3. Press 3 for Exit
+Enter your choice:1
+
+Producer produces item 1
+Enter your choice:2
+
+Consumer consumes item 1
+Enter your choice:2
+
+Buffer is empty!
+Enter your choice:3
