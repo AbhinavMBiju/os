@@ -63,3 +63,20 @@ int main()
 		scanf("%d",&ProcessSize[i]);
 	implimentWorstFit(blockSize,m,ProcessSize,n);
 }
+
+
+output
+Enter the block sizes of each:200
+500
+600
+100
+50
+Enter the no. of processes:3
+Enter the Process size of each:20
+50
+40
+
+Process No.	Process Size	Block no.
+1 			 20 			3
+2 			 50 			2
+3 			 40 			1
