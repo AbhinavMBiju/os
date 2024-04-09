@@ -119,3 +119,40 @@ int main()
     printf("The total number of page hits are : %d\n", no_of_page_hits);
     return 0;
 }
+
+output
+Enter the no of frames:
+4
+Enter the no of pages:
+14
+Enter the pageString
+7
+0
+1
+2
+0
+3
+0
+4
+2
+3
+0
+3
+2
+3
+Page Miss : Storing 7 Page no in 1 Frame:
+Page Miss : Storing 0 Page no in 2 Frame:
+Page Miss : Storing 1 Page no in 3 Frame:
+Page Miss : Storing 2 Page no in 4 Frame:
+Page Hit : Succesfully found Page 0 at 2 Frame
+Page Miss : Replacing 2 Frame Page with 3 Page no:
+Page Miss : Replacing 2 Frame Page with 0 Page no:
+Page Miss : Replacing 2 Frame Page with 4 Page no:
+Page Hit : Succesfully found Page 2 at 4 Frame
+Page Miss : Replacing 4 Frame Page with 3 Page no:
+Page Miss : Replacing 4 Frame Page with 0 Page no:
+Page Miss : Replacing 4 Frame Page with 3 Page no:
+Page Miss : Replacing 4 Frame Page with 2 Page no:
+Page Miss : Replacing 4 Frame Page with 3 Page no:
+The total number of page faults are : 12
+The total number of page hits are : 2
