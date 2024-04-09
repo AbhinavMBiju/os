@@ -72,3 +72,25 @@ int main()
 	}
 	printf("\nNumber of faults: %d \nNumber of hits: %d\n",faults,hits );
 }
+
+output
+Enter frame size: 3
+- - - 
+Enter the number of references: 7
+1
+Fault for 1 | 1 - - 
+3
+Fault for 3 | 1 3 - 
+0
+Fault for 0 | 1 3 0 
+3
+  Hit for 3 | 1 3 0 
+5
+Fault for 5 | 5 3 0 
+6
+Fault for 6 | 5 6 0 
+3
+Fault for 3 | 5 6 3 
+
+Number of faults: 6 
+Number of hits: 1
