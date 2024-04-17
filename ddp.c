@@ -78,3 +78,36 @@ int main()
 	else
 		printf("\n No Deadlock possible");
 }
+
+output
+Enter the no of the process: 3
+
+Enter the no of resources: 3
+
+Total Amount of the Resource R  1: 1
+
+Total Amount of the Resource R  2: 2
+
+Total Amount of the Resource R  3: 4
+
+Enter the request matrix:1
+0
+2
+2
+0
+9
+1
+1
+0
+
+Enter the allocation matrix:0
+0
+1
+1
+3
+6
+9
+5
+1
+
+ Deadlock detected
